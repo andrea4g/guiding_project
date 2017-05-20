@@ -5,7 +5,7 @@ clear all; clc;
 %% data (insert data here)
 % filter
 f0 = 2.4e9;                     % f0 central frequency
-%f0 = 3.2e9;                       % f0 central frequency
+%f0 = 3.2e9;                    
 type = ".5db";                  % type of the filter
                                 % "flat" = Butterworth
                                 % "3dB"  = Chebyshev 3dB ripple
@@ -14,24 +14,14 @@ frange = (1e9 : 1e7 : 7e9);     % frequncy range
 IL = 30;                        % insertion loss
 f = 4.8e9;                      % frequency of insertion loss
 r0 = 50;
-Npresent = "yes";                % if N is given type "yes" otherwise "no"
-N = 6;                         % if no comment this line
+Npresent = "yes";               % if N is given type "yes" otherwise "no"
+N = 6;                          % if no comment this line
 % microstrip
 vph = physconst('LightSpeed');  % default
 epsr = 4;
 h = 2e-3;
 measureh = "mm";                % if d is in inches type "in" otherwise "mm"
-
-fixed = "length";               % what value is fixed
-                                % width, length, Zinf
-%w = [0.5e-3 15e-3];
-
 len = 1/8;                      % write the lenght between quotes
-
-% inductor
-% Zinfh = 150;
-% capacitor
-% Zinfh = 50;
 %% Find the order filter
 Omega = abs(f / f0);
 if Npresent == "no"
@@ -247,5 +237,4 @@ figure, hold on
 plot(LPF,'S21')
 plot(Cascade_microstrip_t,'S21')
 title('Comparison between Lumped, Microstrip [T]'),  xlabel('frequency [GHz]')
-
 end
