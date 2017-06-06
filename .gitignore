@@ -8,6 +8,8 @@
 !*.txt
 !*.png
 !*.gitignore
+!*.emp
+!*.ger
 
 # ...even if they are in subdirectories
 !*/
