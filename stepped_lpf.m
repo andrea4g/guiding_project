@@ -4,7 +4,7 @@ clear all; clc;
 %
 %% data (insert data here)
 % filter
-f0 = 2.4e9;                     % f0 central frequency
+f0 = 2.81e9;                     % f0 central frequency
 %f0 = 3.2e9;                       % f0 central frequency
 type = ".5db";                  % type of the filter
                                 % "flat" = Butterworth
@@ -15,7 +15,7 @@ IL = 30;                        % insertion loss
 f = 4.8e9;                      % frequency of insertion loss
 r0 = 50;
 Npresent = "yes";                % if N is given type "yes" otherwise "no"
-N = 6;                         % if no comment this line
+N = 7;                         % if no comment this line
 % microstrip
 vph = physconst('LightSpeed');  % default
 epsr = 4;
