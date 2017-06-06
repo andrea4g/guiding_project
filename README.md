@@ -6,7 +6,6 @@ Using a circuit board dielectric material with 𝜀𝑟 = 4, ℎ = 2 mm, design 
 4. Using AWR, print the GERBER file of both the top and the bottom layers of the microstrip circuit.
 5. Measure the frequency response of the filter (amplitude of S11 and S21).
 
-|                                     |                       |
 | :---                                |     :---:             |
 | Filter type                         | Low-pass              |
 | Response type                       | Equal-ripple (0.5 dB) |
