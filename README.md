@@ -7,13 +7,11 @@ Using a circuit board dielectric material with 𝜀𝑟 = 4, ℎ = 2 mm, design 
 5. Measure the frequency response of the filter (amplitude of S11 and S21).
 
 <p align="center"> 
-  
+  |                                     |                       |
+  | :---                                |     :---:             |
+  | Filter type                         | Low-pass              |
+  | Response type                       | Equal-ripple (0.5 dB) |
+  | f1 [GHz]                            | 2.4                   |
+  | R0 [O]                              | 50                    |
+  | Insertion loss [dB] @ f = 4.8 [GHz] | > 30 dB               |
 </p>
-
---------------------------------------------------
-Filter type                               Low-pass
-Response type                             Equal-ripple (0.5 dB)
-f1 [GHz]                                  2.4
-R0 [O]                                    50
-Insertion loss [dB] @ f = 4.8 [GHz]       > 30 dB
---------------------------------------------------
