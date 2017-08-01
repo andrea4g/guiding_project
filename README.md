@@ -1,8 +1,8 @@
-## Guiding Electromagnetic Systems project
+# Guiding Electromagnetic Systems project
 
 Project of "Guiding electromagnetic systems" course of Master Degree of Embedded Systems (Electronics Engineering) @ Polytecnic of Turin.
 
-# Specifications
+## Specifications
 Using a circuit board dielectric material with 𝜀𝑟 = 4, ℎ = 2 mm, design a microstrip filter according to the specifications in Table 1. In particular:
 1. Design the prototype filter and apply the required frequency and impedance transformations (consider both a T and π network).
 2. Design the filter using the stepped-impedance technique with equal electric length transmission line segments (45°). Please allow a segment of input and output microstrip line for the connection to the connectors.
